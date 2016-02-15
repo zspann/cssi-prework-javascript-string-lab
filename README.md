@@ -16,6 +16,10 @@ For this lab, we will 2 basic l33t rules.
 
 
 ## Instructions
-1. Open `index.html` in the browser to see your functions in action! You can do this by using the command line or by using Finder. Don't forget to open the JavaScript console to see any messages. Press the "l33t It" button and you'll see the encoder just returns the original `userString`.
+1. Open `index.html` in the browser. You can open html files by using the command line or by using Finder.
 
-2. Open `encoder.js`. Follow the instructions in the comments to translate userString into basic l33t.
+2. Open the JavaScript console within the browser to see any messages.
+
+3. Press the "l33t It" button and you'll see the encoder just returns the original `userString`.
+
+2. Open `encoder.js`. Follow the instructions in the comments to add code that translates `userString` into basic l33t before it is returned.
