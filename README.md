@@ -5,6 +5,7 @@
 Since you are gaining entry into the nerd universe, it's time to learn l33t (leet). l33t is encoding of sorts that manipulates strings using certain rules [l33t on Wikipedia](https://en.wikipedia.org/wiki/Leet).
 
 For this lab, we will 2 basic l33t rules.
+
 1. Substitute the vowels a,e,i and o.
  * a becomes 4
  * e becomes 3
