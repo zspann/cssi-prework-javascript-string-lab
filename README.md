@@ -10,7 +10,14 @@ For this lab, we will 2 basic l33t rules.
  * i becomes 1
  * o becomes 0
 
-2. Replace all whitespace with a `$`.
+2. Replace all whitespace with a `$`
+
+ ** Note on replacement:** The `.replace()` function in javascript will only replace the first instance of the substring that is being searched for. For example, if I use `.replace()` to replace "o" with "0" in "Food" the return value will be "F0od". To replace a substring globally, you can either string together a bunch of `.replace()` methods, which is inefficient, or you can use Regular Expressions (We'll learn more about these in Python). Regular expressions are a way of searching for patterns in strings, and are delineated by forward slashes. To replace all of the "o"s in "food", we'd write:
+
+ ```
+ "food".replace(/o/g, "0")
+ ```
+Use this as a template when you build out your l33t converter!
 
 
 ## Instructions
@@ -24,3 +31,5 @@ For this lab, we will 2 basic l33t rules.
 4. Press the "l33t It" button and you'll see the encoder just returns the original `userString`.
 
 5. Open `encoder.js`. Follow the instructions in the comments to add code that translates `userString` into basic l33t before it is returned.
+
+6. Run `learn` to make sure the function passes the tests!
