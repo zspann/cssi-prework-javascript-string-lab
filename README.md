@@ -17,6 +17,8 @@ For this lab, we will 2 basic l33t rules.
  ```
  "food".replace(/o/g, "0")
  ```
+The content inside // is what is the pattern being searched for, and the "g" afterwards stands for for "global" - this means we're looking for every instance of 'o' in the string.
+
 Use this as a template when you build out your l33t converter!
 
 
