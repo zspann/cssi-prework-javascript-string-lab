@@ -1,7 +1,7 @@
 var encode = function(userString){
   //1. Add code to turn string to lowercase
   userString.toLowerCase()
-  // 2. Add code to change each instance of a, e, i, o to the appropriate number based on l33n rules
+  // 2 . Add code to change each instance of a, e, i, o to the appropriate number based on l33n rules
   userString.replace(/a/g, 4)
   userString.replace(/e/g, 3)
   userString.replace(/i/g, 1)
